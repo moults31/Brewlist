@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6614E28D700AAC416D69AE91 /* libPods-Brewlist.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3CFF6F2C3523CADCDC17F46 /* libPods-Brewlist.a */; };
 		927CCC231F1097280071DE6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 927CCC221F1097280071DE6F /* main.m */; };
 		927CCC261F1097280071DE6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 927CCC251F1097280071DE6F /* AppDelegate.m */; };
 		927CCC291F1097280071DE6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 927CCC281F1097280071DE6F /* ViewController.m */; };
@@ -16,6 +17,7 @@
 		927CCC341F1097280071DE6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 927CCC321F1097280071DE6F /* LaunchScreen.storyboard */; };
 		927CCC3F1F1097280071DE6F /* BrewlistTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 927CCC3E1F1097280071DE6F /* BrewlistTests.m */; };
 		927CCC4A1F1097290071DE6F /* BrewlistUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 927CCC491F1097290071DE6F /* BrewlistUITests.m */; };
+		927CCC5A1F10976A0071DE6F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 927CCC591F10976A0071DE6F /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C793D7809A685741D936A9D /* Pods-Brewlist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brewlist.release.xcconfig"; path = "Pods/Target Support Files/Pods-Brewlist/Pods-Brewlist.release.xcconfig"; sourceTree = "<group>"; };
 		927CCC1E1F1097280071DE6F /* Brewlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brewlist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		927CCC221F1097280071DE6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		927CCC241F1097280071DE6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +56,9 @@
 		927CCC451F1097280071DE6F /* BrewlistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrewlistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		927CCC491F1097290071DE6F /* BrewlistUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrewlistUITests.m; sourceTree = "<group>"; };
 		927CCC4B1F1097290071DE6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		927CCC591F10976A0071DE6F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B3CFF6F2C3523CADCDC17F46 /* libPods-Brewlist.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Brewlist.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD557DA54DD1F965E9A17BD2 /* Pods-Brewlist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brewlist.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Brewlist/Pods-Brewlist.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6614E28D700AAC416D69AE91 /* libPods-Brewlist.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,13 +87,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D0A2E3FEDB96E94FBE83E0B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD557DA54DD1F965E9A17BD2 /* Pods-Brewlist.debug.xcconfig */,
+				5C793D7809A685741D936A9D /* Pods-Brewlist.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		927CCC151F1097280071DE6F = {
 			isa = PBXGroup;
 			children = (
+				927CCC591F10976A0071DE6F /* GoogleService-Info.plist */,
 				927CCC201F1097280071DE6F /* Brewlist */,
 				927CCC3D1F1097280071DE6F /* BrewlistTests */,
 				927CCC481F1097290071DE6F /* BrewlistUITests */,
 				927CCC1F1F1097280071DE6F /* Products */,
+				6D0A2E3FEDB96E94FBE83E0B /* Pods */,
+				B3D2345D2952AE83C8B8E6C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,6 +162,14 @@
 			path = BrewlistUITests;
 			sourceTree = "<group>";
 		};
+		B3D2345D2952AE83C8B8E6C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3CFF6F2C3523CADCDC17F46 /* libPods-Brewlist.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 927CCC4E1F1097290071DE6F /* Build configuration list for PBXNativeTarget "Brewlist" */;
 			buildPhases = (
+				6DF2EDC5F134E40CB10F3707 /* [CP] Check Pods Manifest.lock */,
 				927CCC1A1F1097280071DE6F /* Sources */,
 				927CCC1B1F1097280071DE6F /* Frameworks */,
 				927CCC1C1F1097280071DE6F /* Resources */,
+				4D57B32DBB47B98B16B8F9AC /* [CP] Embed Pods Frameworks */,
+				05F5231B720BA8EB60FADFF0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				927CCC341F1097280071DE6F /* LaunchScreen.storyboard in Resources */,
+				927CCC5A1F10976A0071DE6F /* GoogleService-Info.plist in Resources */,
 				927CCC311F1097280071DE6F /* Assets.xcassets in Resources */,
 				927CCC2C1F1097280071DE6F /* Main.storyboard in Resources */,
 			);
@@ -270,6 +301,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05F5231B720BA8EB60FADFF0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Brewlist/Pods-Brewlist-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D57B32DBB47B98B16B8F9AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Brewlist/Pods-Brewlist-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DF2EDC5F134E40CB10F3707 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		927CCC1A1F1097280071DE6F /* Sources */ = {
@@ -428,6 +507,7 @@
 		};
 		927CCC4F1F1097290071DE6F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD557DA54DD1F965E9A17BD2 /* Pods-Brewlist.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Brewlist/Info.plist;
@@ -439,6 +519,7 @@
 		};
 		927CCC501F1097290071DE6F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C793D7809A685741D936A9D /* Pods-Brewlist.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Brewlist/Info.plist;
@@ -513,6 +594,7 @@
 				927CCC501F1097290071DE6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		927CCC511F1097290071DE6F /* Build configuration list for PBXNativeTarget "BrewlistTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +603,7 @@
 				927CCC531F1097290071DE6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		927CCC541F1097290071DE6F /* Build configuration list for PBXNativeTarget "BrewlistUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +612,7 @@
 				927CCC561F1097290071DE6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
